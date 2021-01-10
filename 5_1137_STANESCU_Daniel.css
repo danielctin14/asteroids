@@ -1,0 +1,78 @@
+body {
+    
+        margin: 0;
+        height: 100vh;
+        width: 100vw;
+    
+    background-color: #000056;
+}
+canvas{
+    margin:0px;
+}
+
+#scoreDiv {
+    position: fixed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    color: rgba(255, 255, 255, 1);
+    margin: 15px 0px 0px 30px;
+    user-select: none;
+}
+
+#rocketsDiv {
+    position: fixed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    color: rgba(255, 255, 255, 1);
+    margin: 50px 0px 0px 30px;
+    user-select: none;
+}
+
+#livesDiv {
+    position: fixed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    color: rgba(255, 255, 255, 1);
+    margin: 85px 0px 0px 30px;
+    user-select: none;
+}
+
+#popup {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -150px;
+
+}
+
+#popupBg {
+    background-color: rgba(255, 255, 255, 1);
+    max-width: 28rem;
+    width: 100%;
+    padding: 6px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#scoreFinal {
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#startButton {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    background-color: lawngreen;
+    color: rgba(0, 0, 0, 1);
+    margin: 8px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
